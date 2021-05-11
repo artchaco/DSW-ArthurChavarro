@@ -1,0 +1,29 @@
+*{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.contenedor {
+    background-color: aqua;
+}
+
+@media (max-widt:600px) {
+    .contenedor {
+        background-color: brown;
+    }
+
+    headerx {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+
+    }
+}
+
